@@ -1,0 +1,4388 @@
+seed from before the ui 1
+seed from after the ui 1
+
+**************************************************************
+ Geant4 version Name: geant4-11-01-patch-02 [MT]   (15-June-2023)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+seed from after the RM 1
+<<< Geant4 Physics List simulation engine: QGSP_BIC_HP
+
+G4VModularPhysicsList::ReplacePhysics: G4EmStandard_opt4 with type : 2 is replaced with G4EmStandard_opt4
+G4VModularPhysicsList::RegisterPhysics: Optical with type : 0 is added
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Registered graphics systems are:
+  ASCIITree (ATree)
+  DAWNFILE (DAWNFILE)
+  G4HepRepFile (HepRepFile)
+  RayTracer (RayTracer)
+  VRML2FILE (VRML2FILE)
+  gMocrenFile (gMocrenFile)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN, TSG_FILE)
+  OpenGLImmediateQt (OGLIQt, OGLI)
+  OpenGLStoredQt (OGLSQt, OGL, OGLS)
+  RayTracerX (RayTracerX)
+  TOOLSSG_QT_GLES (TSG_QT_GLES, TSGQt, TSG)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered models:
+  None
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+Registered filters:
+  None
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+Creating SD with name: /SD
+/Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Inelastic
+@@@ G4ParticleHPInelasticData instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+### Birks coefficients used in run time
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      100 TeV
+Number of bins per decade of a table               20
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 0.01 mm)
+Step function for muons/hadrons                    (0.1, 0.05 mm)
+Step function for light ions                       (0.1, 0.02 mm)
+Step function for general ions                     (0.1, 0.001 mm)
+Lowest e+e- kinetic energy                         100 eV 
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    1
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks satuaration                     1
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 1
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            1 MeV
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           2
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     1
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.08
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      3
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              1
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+======                 Atomic Deexcitation Parameters          ========
+=======================================================================
+Fluorescence enabled                               1
+Directory in G4LEDATA for fluorescence data files  fluor
+Auger electron cascade enabled                     1
+PIXE atomic de-excitation enabled                  0
+De-excitation module ignores cuts                  1
+Type of PIXE cross section for hadrons             Empirical
+Type of PIXE cross section for e+-                 Livermore
+=======================================================================
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld  1  1  0
+### ===  Auger flag: 1
+### ===  Ignore cuts flag:   1
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 174 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 20 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 160 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LowEPComptonModel : Emin=    0 eV  Emax=   20 MeV Fluo
+        KleinNishina : Emin=   20 MeV Emax=  100 TeV Fluo
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+      BetheHeitler5D : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 20 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 100 TeV in 176 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+
+ePairProd:  for e-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 0
+      Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+
+ePairProd:  for e+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 0
+      Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+annihil:  for e+ XStype:2 SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+nuclearStopping:  for proton SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.001 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LindhardSorensen : Emin=    0 eV  Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:  for GenericIon SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+======================================================================
+======          Radioactive Decay Physics Parameters           =======
+======================================================================
+min MeanLife (from G4NuclideTable)                1 ns 
+Max life time (from G4DeexPrecoParameters)        1000 ps 
+Internal e- conversion flag                       1
+Stored internal conversion coefficients           1
+Enabled atomic relaxation mode                    1
+Enable correlated gamma emission                  0
+Max 2J for sampling of angular correlations       10
+Atomic de-excitation enabled                      1
+Auger electron emission enabled                   1
+Check EM cuts disabled for atomic de-excitation   1
+Use Bearden atomic level energies                 0
+Use ANSTO fluorescence model                      0
+Threshold for very long decay time at rest        3.171e+10 y  
+======================================================================
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.02 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV  deltaVI
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:  for alpha SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for anti_proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for anti_proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for kaon+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for kaon+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for kaon-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for kaon-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:  for mu+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:  for mu+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:  for mu-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:  for mu-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+
+=======================================================
+======       ParticleHP Physics Parameters     ========
+=======================================================
+ UseOnlyPhotoEvaporation ? 0
+ SkipMissingIsotopes ?     0
+ NeglectDoppler ?          0
+ DoNotAdjustFinalState ?   0
+ ProduceFissionFragments ? 0
+ UseWendtFissionModel ?    0
+ UseNRESP71Model ?         0
+=======================================================
+
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Inelastic
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /Users/anthonandersson/software/geant4-v11.1.2-install/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for pi+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for pi+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:  for pi-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:  for pi-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+      Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+======================================================================
+======          Radioactive Decay Physics Parameters           =======
+======================================================================
+min MeanLife (from G4NuclideTable)                1 ns 
+Max life time (from G4DeexPrecoParameters)        1000 ps 
+Internal e- conversion flag                       1
+Stored internal conversion coefficients           1
+Enabled atomic relaxation mode                    1
+Enable correlated gamma emission                  0
+Max 2J for sampling of angular correlations       10
+Atomic de-excitation enabled                      1
+Auger electron emission enabled                   1
+Check EM cuts disabled for atomic de-excitation   1
+Use Bearden atomic level energies                 0
+Use ANSTO fluorescence model                      0
+Threshold for very long decay time at rest        3.171e+10 y  
+======================================================================
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionElastic
+        Model:          NNDiffuseElastic: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: RadioactiveDecay
+
+  Process: RadioactiveDecay
+
+---------------------------------------------------
+                           Hadronic Processes for He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for anti_He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: anti_lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            GammaNuclearXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: kaon+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: kaon-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for mu+
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 19.5 MeV ---> 100 TeV
+        Model:          NeutronHPElastic: 0 eV  ---> 20 MeV
+     Cr_sctns:        NeutronHPElasticXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+
+
+  Process: neutronInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            Binary Cascade: 19.9 MeV ---> 6 GeV
+        Model:        NeutronHPInelastic: 0 eV  ---> 20 MeV
+     Cr_sctns:      NeutronHPInelasticXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+
+
+  Process: nCapture
+        Model:          NeutronHPCapture: 0 eV  ---> 20 MeV
+        Model:               nRadCapture: 19.9 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPCaptureXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+
+
+  Process: nFission
+        Model:          NeutronHPFission: 0 eV  ---> 20 MeV
+        Model:                G4LFission: 19.9 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPFissionXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:                    ZeroXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: pi+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: pi-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: protonInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            Binary Cascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for sigma-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: sigma-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+================================================================
+=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy                  100 keV
+Pre-compound excitation high energy                 30 MeV
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy                               10 eV 
+Min energy per nucleon for multifragmentation       200 GeV
+Limit excitation energy for Fermi BreakUp           20 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      1
+Time limit for long lived isomeres                  1000 ps 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   1
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+
+=========================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Initializing workers...
+=========================================================================
+
+G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
+See commands in /vis/modeling/trajectories/ for other options.
+seed from run 1
+
+==========================================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Creating 32 tasks with 31 events/task...
+==========================================================================================
+
+G4WT6 > seed from run 3
+G4WT1 > seed from run 15
+G4WT0 > seed from run 13
+G4WT2 > seed from run 9
+G4WT7 > seed from run 5
+G4WT3 > seed from run 7
+G4WT5 > seed from run 17
+G4WT4 > seed from run 11
+G4WT7 > seed 83838728
+G4WT4 > seed 69944341
+G4WT3 > seed 22393087
+G4WT2 > seed 81508711
+G4WT6 > seed 8290534
+G4WT6 > 
+G4WT1 > seed 13049039
+G4WT1 > 
+G4WT7 > 
+G4WT4 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT5 > seed 48255346
+G4WT5 > 
+G4WT0 > seed 68258220
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 62
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT1 > >>> Event: 0
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT6 > >>> Event: 93
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > No hits
+G4WT2 > >>> Event: 31
+G4WT6 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT2 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 19381175
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 80507990
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 2268928
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 63
+G4WT1 > seed 99594690
+G4WT1 > 
+G4WT5 > seed 5603947
+G4WT5 > 
+G4WT7 > No hits
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 1
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 7235625
+G4WT2 > seed 6306280
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 34656397
+G4WT7 >     0 hits stored in this event
+G4WT0 > 
+G4WT2 > >>> Event: 32
+G4WT4 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 60732196
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 94
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT3 > seed 28801372
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 11291749
+G4WT1 > 
+G4WT5 > seed 83748013
+G4WT5 > 
+G4WT3 > seed 86328954
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 11312040
+G4WT7 > seed 29314922
+G4WT7 > 
+G4WT0 > seed 16817433
+G4WT0 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 64
+G4WT7 > No hits
+G4WT4 > seed 52454842
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 2
+G4WT1 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 95
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 24187
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 33
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 >     0 hits stored in this event
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT0 > seed 44794151
+G4WT7 > seed 3273787
+G4WT7 > 
+G4WT3 > seed 8996080
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 65
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT1 > seed 47304437
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 49791780
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 48741067
+G4WT2 > >>> Event: 34
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 68689791
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 > >>> Event: 3
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 29135987
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 96
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 80718090
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 84521387
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 66
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT3 > seed 53226805
+G4WT2 > seed 33373881
+G4WT2 > 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 20459635
+G4WT4 > seed 88472142
+G4WT4 > 
+G4WT0 > seed 34894436
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 97
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT7 > seed 37686292
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 35
+G4WT3 > seed 5479311
+G4WT1 > seed 35935592
+G4WT0 > seed 33646448
+G4WT0 > 
+G4WT5 > seed 16707039
+G4WT5 > 
+G4WT7 > >>> Event: 67
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > No hits
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 90724182
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT6 > seed 18389015
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 98
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT5 > seed 55536766
+G4WT5 > 
+G4WT2 > seed 22493698
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 36
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 4
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT7 > seed 86259824
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 68
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT0 > seed 90110267
+G4WT6 > seed 15569668
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 63964995
+G4WT3 > 
+G4WT6 > >>> Event: 99
+G4WT0 > 
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 76063648
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 14149118
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 37
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT5 > seed 40892571
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 54798860
+G4WT3 > seed 38559727
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT4 > seed 73125181
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 5
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 82536138
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 100
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT5 > seed 4890168
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 5447690
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 35804018
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 38
+G4WT3 > seed 81853112
+G4WT3 > 
+G4WT2 > No hits
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 69177263
+G4WT4 > 
+G4WT6 > seed 68388348
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 11900984
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 84020730
+G4WT0 > 
+G4WT6 > 
+G4WT1 > >>> Event: 6
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 94410454
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 41365009
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 39
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT3 > seed 90137779
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 42182052
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 19683719
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 78139596
+G4WT5 > 
+G4WT1 > seed 7212557
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 7
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 99668231
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 47576405
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 96538836
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 40
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT0 > seed 32626944
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 36142019
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 74052786
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 452089
+G4WT3 > seed 94109221
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 79863766
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 41
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 > >>> Event: 8
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 93214124
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 47015409
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 60141109
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 22557144
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 685966
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 9
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT2 > seed 3294194
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 42
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT6 > seed 83407693
+G4WT6 > 
+G4WT5 > seed 72267168
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 33375279
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 85384526
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 57283583
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 10
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT3 > seed 76699022
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 51755889
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 13598789
+G4WT6 > 
+G4WT2 > seed 87903479
+G4WT5 > seed 38011997
+G4WT7 > >>> Event: 69
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 5911347
+G4WT0 > seed 83067814
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > No hits
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT7 >     0 hits stored in this event
+G4WT2 > 
+G4WT3 > seed 3542107
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47187995
+G4WT1 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 43
+G4WT1 > >>> Event: 11
+G4WT2 > No hits
+G4WT1 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 48706009
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 50583838
+G4WT7 > 
+G4WT0 > seed 18121444
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 99887291
+G4WT0 > 
+G4WT4 > seed 66048496
+G4WT4 > 
+G4WT3 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 24389725
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > >>> Event: 200
+G4WT7 > >>> Event: 70
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 87026216
+G4WT0 > No hits
+G4WT0 >     0 hits stored in this event
+G4WT1 > seed 53451390
+G4WT1 > 
+G4WT2 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 12
+G4WT1 > No hits
+G4WT2 > >>> Event: 44
+G4WT6 > seed 84495032
+G4WT6 > 
+G4WT1 >     0 hits stored in this event
+G4WT3 > seed 21770637
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT5 > seed 91608320
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 4932868
+G4WT4 > 
+G4WT7 > seed 29315315
+G4WT7 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 13940862
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 71
+G4WT7 > No hits
+G4WT1 > seed 87781155
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT1 > >>> Event: 13
+G4WT2 > seed 87542917
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 95201090
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 65625063
+G4WT3 > 
+G4WT5 > seed 88754005
+G4WT5 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 45
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 20392802
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 42870110
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 46475886
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 72
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT3 > seed 17017356
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 9868668
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 14
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT4 > seed 62072587
+G4WT4 > 
+G4WT0 > seed 54004332
+G4WT0 > 
+G4WT2 > seed 48644552
+G4WT2 > 
+G4WT6 > seed 91601662
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 46
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 57885924
+G4WT7 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 73
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT5 > seed 72490587
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 96334702
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 84901951
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 15
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT0 > seed 3780547
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 82290383
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 47
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 92643886
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 95575316
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 54149229
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 74
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT5 > seed 98267416
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 81315068
+G4WT0 > 
+G4WT1 > seed 58017500
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 16
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT3 > seed 95997886
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 42453179
+G4WT4 > 
+G4WT2 > seed 61329293
+G4WT6 > seed 45449228
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 79209461
+G4WT7 > 
+G4WT2 > 
+G4WT5 > seed 94941528
+G4WT5 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 97667038
+G4WT2 > >>> Event: 48
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 17
+G4WT1 > No hits
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 76248250
+G4WT7 > >>> Event: 75
+G4WT7 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 >     0 hits stored in this event
+G4WT7 >     0 hits stored in this event
+G4WT3 > seed 32727318
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 66754407
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 32900142
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 34165355
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 96834834
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 18
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT0 > seed 62916692
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 16449038
+G4WT2 > 
+G4WT4 > seed 63188726
+G4WT7 > seed 2194748
+G4WT4 > 
+G4WT3 > seed 77218511
+G4WT3 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 19711834
+G4WT6 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 49
+G4WT2 > No hits
+G4WT7 > >>> Event: 76
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT2 >     0 hits stored in this event
+G4WT5 > seed 62458614
+G4WT5 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 92651911
+G4WT1 > 
+G4WT0 > seed 30126028
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 73703800
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 48497297
+G4WT3 > seed 14674885
+G4WT3 > 
+G4WT7 > 
+G4WT6 > seed 67394543
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 19
+G4WT1 > No hits
+G4WT5 > seed 32069040
+G4WT5 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 77
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT1 >     0 hits stored in this event
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 90223118
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 27894285
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 50
+G4WT2 > No hits
+G4WT4 > seed 10073712
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 >     0 hits stored in this event
+G4WT0 > seed 13208835
+G4WT0 > 
+G4WT5 > seed 58292131
+G4WT5 > 
+G4WT3 > seed 95704221
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 721009
+G4WT6 > seed 96367944
+G4WT6 > 
+G4WT1 > 
+G4WT7 > seed 85367244
+G4WT7 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 78
+G4WT7 > No hits
+G4WT1 > >>> Event: 20
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT4 > seed 62184278
+G4WT4 > 
+G4WT7 >     0 hits stored in this event
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 54859684
+G4WT0 > 
+G4WT2 > seed 91936361
+G4WT5 > seed 24520211
+G4WT3 > seed 1657973
+G4WT3 > 
+G4WT5 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 43814611
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 51
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 26285018
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 80086875
+G4WT7 > 
+G4WT4 > seed 16280072
+G4WT1 > >>> Event: 21
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 79
+G4WT7 > No hits
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 57060472
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT5 > seed 3549860
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 37362487
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 29104019
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 22
+G4WT6 > seed 97751317
+G4WT6 > 
+G4WT1 > No hits
+G4WT4 > seed 59297881
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 34757121
+G4WT2 > 
+G4WT1 >     0 hits stored in this event
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 81004977
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT7 > >>> Event: 80
+G4WT7 > No hits
+G4WT2 > >>> Event: 52
+G4WT2 > No hits
+G4WT0 > seed 7554610
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 89534836
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 11295066
+G4WT7 >     0 hits stored in this event
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 68915810
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 2298821
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 48524621
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 23
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT7 > seed 14586912
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 81
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT3 > seed 94863935
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 82081496
+G4WT6 > 
+G4WT0 > seed 79409207
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 21966090
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 64964756
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 53
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT5 > seed 91103400
+G4WT5 > 
+G4WT1 > seed 86191441
+G4WT1 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 39615881
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 24
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT0 > seed 11241478
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 44704188
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 82
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT6 > seed 16677270
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 39684283
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 22258091
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 54
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT5 > seed 12208282
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 39093233
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 95138249
+G4WT1 > >>> Event: 25
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT4 > seed 24888443
+G4WT4 > 
+G4WT3 > seed 24848812
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 807771
+G4WT0 > 
+G4WT7 > seed 84289314
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 83
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > No hits
+G4WT2 > seed 67293322
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT5 > seed 96398467
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 45946478
+G4WT6 > 
+G4WT3 > seed 77213388
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 31878492
+G4WT1 > 
+G4WT2 > >>> Event: 55
+G4WT2 > No hits
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 24710638
+G4WT4 > seed 32756517
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT2 >     0 hits stored in this event
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 67307224
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 26
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 84
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT3 > seed 22278543
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 14004978
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 28904085
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 95799506
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 56
+G4WT7 > seed 317828
+G4WT0 > seed 68048036
+G4WT0 > 
+G4WT5 > seed 48446714
+G4WT5 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT2 > No hits
+G4WT1 > seed 95772791
+G4WT1 > 
+G4WT3 > seed 34524210
+G4WT3 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 >     0 hits stored in this event
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 85
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT1 > >>> Event: 27
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 19079770
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 80218359
+G4WT4 > 
+G4WT2 > seed 95561158
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 57
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 68787324
+G4WT5 > 
+G4WT0 > seed 43067709
+G4WT0 > 
+G4WT3 > seed 99407795
+G4WT3 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 37837439
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 86
+G4WT7 > No hits
+G4WT6 > seed 93740063
+G4WT6 > 
+G4WT7 >     0 hits stored in this event
+G4WT1 > seed 95218447
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 28
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 14063146
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 58
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT3 > seed 64066021
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 91541815
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 2215856
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 30734545
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 77038180
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 29
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 77115201
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 92414337
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 57579111
+G4WT7 > seed 47491972
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 87
+G4WT4 > seed 20683010
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 59
+G4WT7 > No hits
+G4WT0 > seed 81023679
+G4WT3 > 
+G4WT5 > seed 32214147
+G4WT5 > 
+G4WT2 > No hits
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT2 >     0 hits stored in this event
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 86070039
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 30
+G4WT1 > No hits
+G4WT1 >     0 hits stored in this event
+G4WT6 > seed 61601444
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 8141043
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47943169
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 39362158
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 7601068
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 53136361
+G4WT5 > seed 92984890
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 42405249
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 88
+G4WT7 > No hits
+G4WT3 > 
+G4WT7 >     0 hits stored in this event
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 36804091
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > >>> Event: 60
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT4 > seed 40609079
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 60593661
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 15152569
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 1908138
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 64189112
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 89
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT4 > seed 6055559
+G4WT6 > seed 98811653
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 291398
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 17355966
+G4WT2 > >>> Event: 61
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > No hits
+G4WT2 >     0 hits stored in this event
+G4WT3 > seed 4969846
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 87875844
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 81444244
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 45586318
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 90
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT2 > seed 4184443
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 13577059
+G4WT5 > seed 98656627
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 65935318
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 53714399
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 51190351
+G4WT7 > 
+G4WT4 > seed 49506128
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 66258500
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 9712497
+G4WT5 > 
+G4WT2 > seed 69682846
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 31919355
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 91
+G4WT7 > No hits
+G4WT6 > seed 38768111
+G4WT4 > seed 67996618
+G4WT4 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 >     0 hits stored in this event
+G4WT6 > 
+G4WT3 > seed 25338211
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 22346975
+G4WT0 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 19755538
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 81072751
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 61275509
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 2595640
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 95457133
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > >>> Event: 92
+G4WT7 > No hits
+G4WT7 >     0 hits stored in this event
+G4WT6 > seed 83968022
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 99785479
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 75534633
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 37769817
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 3295795
+G4WT3 > seed 70566506
+G4WT0 > seed 47971960
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 3123398
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 35882926
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 64691183
+G4WT4 > 
+G4WT2 > seed 95654611
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 95419454
+G4WT1 > seed 36998200
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 88663701
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 40160479
+G4WT5 > 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 2369300
+G4WT7 > 
+G4WT2 > seed 38548195
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 8305938
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 6812696
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 48434979
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 94179462
+G4WT6 > 
+G4WT2 > seed 7639484
+G4WT2 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 59275299
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 60137689
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 11563060
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 9887892
+G4WT1 > seed 71566516
+G4WT1 > 
+G4WT7 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 89073667
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 39699608
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 5868667
+G4WT6 > seed 89209489
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 17883956
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 60962587
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 97818704
+G4WT4 > 
+G4WT7 > seed 7980274
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 88765534
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 57654722
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 16513072
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 48650360
+G4WT6 > seed 33831304
+G4WT5 > 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47123215
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 85464369
+G4WT7 > 
+G4WT0 > seed 96608336
+G4WT0 > 
+G4WT3 > seed 67543859
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 78286780
+G4WT4 > 
+G4WT2 > seed 35794223
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 88270784
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 83436887
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 5920613
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 73315516
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 31813389
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 16406427
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 9293742
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 39950995
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 17573208
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 94795093
+G4WT0 > 
+G4WT2 > seed 91739069
+G4WT2 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 14185768
+G4WT5 > 
+G4WT1 > seed 21193688
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 89237555
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 38377807
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 85638924
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 17065351
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 99948330
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 89339393
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 24427829
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 78946932
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 59470024
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 4184726
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 87075611
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 56143727
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 63069615
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 33174603
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 92504422
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 10955241
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 26703140
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 66609244
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 94369587
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 8760335
+G4WT2 > 
+G4WT7 > seed 35188399
+G4WT7 > 
+G4WT5 > seed 2798436
+G4WT3 > seed 22674514
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 92371486
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 13981047
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 48978956
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 30388834
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 61939904
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 8821281
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 48642867
+G4WT3 > 
+G4WT6 > seed 85449028
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 475655
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 57661392
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > >>> Event: 300
+G4WT0 > seed 43526429
+G4WT0 > 
+G4WT4 > No hits
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 79705732
+G4WT2 > seed 27988123
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 66403306
+G4WT4 >     0 hits stored in this event
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 26152111
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 44845849
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 97885049
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 66842806
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 24181244
+G4WT4 > 
+G4WT0 > seed 34135646
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 26250809
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 83360934
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 17041792
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 92158060
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 72395258
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 81482419
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 23895982
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 11195748
+G4WT5 > seed 1031173
+G4WT2 > seed 73064835
+G4WT5 > 
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 68687013
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 38101810
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 87122097
+G4WT6 > 
+G4WT0 > 
+G4WT1 > seed 14853505
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 56775546
+G4WT4 > 
+G4WT2 > seed 50255541
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 10057341
+G4WT0 > seed 8241333
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 75523244
+G4WT7 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 27226983
+G4WT1 > 
+G4WT6 > seed 82149768
+G4WT6 > 
+G4WT5 > seed 72819257
+G4WT5 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 15905015
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 37995932
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 12219739
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 12460908
+G4WT4 > 
+G4WT7 > seed 60908489
+G4WT7 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 36041082
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 62178875
+G4WT6 > seed 27609300
+G4WT6 > 
+G4WT5 > seed 30625291
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT2 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 58077144
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 89225848
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 14007432
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 83778383
+G4WT7 > 
+G4WT6 > seed 92245389
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 96949848
+G4WT2 > 
+G4WT0 > seed 18572246
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 82964712
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 19067867
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 73612989
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 66428117
+G4WT5 > seed 11073110
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 40027525
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 74958041
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 40574056
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 81049252
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 89581969
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 7119319
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 72240963
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 16974623
+G4WT0 > seed 42659322
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 9701510
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 37591789
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 25599250
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 78136595
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 77097346
+G4WT4 > seed 38985464
+G4WT5 > seed 74547838
+G4WT5 > 
+G4WT0 > seed 73646048
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 53976244
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 31401819
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 35526783
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 89611594
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 50709434
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 49928015
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 67512426
+G4WT3 > 
+G4WT6 > seed 68947635
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 55659808
+G4WT2 > 
+G4WT4 > seed 7690056
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT7 > seed 72035315
+G4WT7 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 1794836
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > >>> Event: 400
+G4WT5 > No hits
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 >     0 hits stored in this event
+G4WT0 > seed 76816381
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 76723579
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 79252771
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 52472018
+G4WT7 > seed 2970910
+G4WT7 > 
+G4WT1 > seed 18866203
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 32157470
+G4WT3 > seed 79836293
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 500
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT2 > seed 81438306
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 95273794
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 36455849
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 1127360
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 56922746
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 29856368
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 22683625
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 89777713
+G4WT1 > seed 59613778
+G4WT1 > 
+G4WT2 > seed 47508208
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 14949725
+G4WT7 > 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 12577924
+G4WT4 > seed 22261314
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 44897753
+G4WT5 > 
+G4WT3 > 
+G4WT4 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 51973142
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 59370780
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 4823974
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 34491415
+G4WT0 > seed 60679682
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 72167999
+G4WT1 > seed 78436272
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 29040107
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 81702101
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 5770760
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 65033494
+G4WT3 > 
+G4WT0 > seed 79451907
+G4WT4 > seed 99455243
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 98964733
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47694667
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 30062543
+G4WT7 > 
+G4WT5 > seed 85105127
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 73229905
+G4WT2 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 13964375
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 56722896
+G4WT4 > seed 50903911
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 55360949
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 78388240
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 92982051
+G4WT7 > seed 27964632
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 39470815
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 55435416
+G4WT2 > 
+G4WT6 > seed 90433968
+G4WT4 > seed 51903360
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT0 > seed 9785269
+G4WT0 > 
+G4WT1 > seed 78987980
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 47049669
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 95318749
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 51796393
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 54061841
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 26612943
+G4WT7 > 
+G4WT5 > seed 66313949
+G4WT5 > 
+G4WT1 > seed 78018676
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 75081269
+G4WT6 > 
+G4WT2 > seed 5798292
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 28560561
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 6066381
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 69312618
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 87912776
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 1604670
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 64467215
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 63770826
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 16262704
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 16478256
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 12838446
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 13522774
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 11313265
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 50827518
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 72740914
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 80380208
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 76938947
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 81815024
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 80709947
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 24624549
+G4WT7 > 
+G4WT3 > seed 65487630
+G4WT3 > 
+G4WT2 > seed 22375272
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 20678118
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 57337135
+G4WT0 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 33277055
+G4WT4 > 
+G4WT6 > seed 78047589
+G4WT6 > 
+G4WT5 > seed 63445981
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 77005712
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 75102520
+G4WT1 > 
+G4WT3 > seed 34961080
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 89549740
+G4WT7 > 
+G4WT4 > seed 6383967
+G4WT0 > seed 45767711
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > >>> Event: 600
+G4WT6 > seed 29144603
+G4WT2 > seed 13355046
+G4WT2 > 
+G4WT5 > seed 11978105
+G4WT5 > 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > No hits
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 16222299
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 >     0 hits stored in this event
+G4WT1 > seed 20711553
+G4WT1 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 19394658
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 46564755
+G4WT4 > 
+G4WT2 > seed 19506883
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 97008642
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 8409717
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 98760539
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 76623213
+G4WT5 > seed 44589533
+G4WT1 > seed 18511259
+G4WT5 > 
+G4WT1 > 
+G4WT7 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 70380160
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 78363661
+G4WT3 > 
+G4WT0 > seed 19598806
+G4WT0 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 32949526
+G4WT5 > seed 99948552
+G4WT5 > 
+G4WT4 > seed 6591613
+G4WT4 > 
+G4WT6 > seed 24553990
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 61341268
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 55593484
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 53850547
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 97224202
+G4WT6 > seed 93314750
+G4WT6 > 
+G4WT0 > seed 46521710
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT5 > seed 55412254
+G4WT7 > seed 89642814
+G4WT7 > 
+G4WT5 > 
+G4WT1 > seed 56432926
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 78657589
+G4WT2 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 24315259
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 14140763
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 1708960
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 80121379
+G4WT4 > 
+G4WT6 > seed 46785836
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 96015563
+G4WT5 > 
+G4WT7 > seed 81428548
+G4WT7 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 62987257
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 37742202
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 1796199
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 91409168
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47783907
+G4WT0 > seed 27379451
+G4WT0 > 
+G4WT6 > seed 46163922
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 23350135
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT7 > seed 55758389
+G4WT2 > seed 66783168
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 60764564
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 21507117
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 78987405
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 94676475
+G4WT6 > 
+G4WT5 > seed 24487351
+G4WT5 > 
+G4WT7 > seed 50201717
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT2 > seed 51210355
+G4WT2 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 17001850
+G4WT1 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 47810489
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 25402398
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 82099033
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 38709681
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 66092421
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 81731090
+G4WT3 > seed 62853092
+G4WT3 > 
+G4WT5 > seed 75726518
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 19019887
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 66302805
+G4WT0 > 
+G4WT7 > seed 54615566
+G4WT7 > 
+G4WT1 > seed 23990889
+G4WT1 > 
+G4WT6 > seed 51546814
+G4WT6 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 52063138
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT4 > seed 826961
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 20992547
+G4WT2 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 5774918
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 18777728
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 85023229
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 81439733
+G4WT6 > seed 29061962
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 52191729
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 62051918
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 94649464
+G4WT1 > seed 13156823
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 20077010
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 96712072
+G4WT6 > 
+G4WT0 > seed 28314887
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 38546025
+G4WT2 > 
+G4WT4 > seed 66032302
+G4WT4 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 35159830
+G4WT1 > seed 65607659
+G4WT1 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 73400015
+G4WT5 > 
+G4WT7 > seed 65395254
+G4WT7 > 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 90682632
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 69010443
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 40832213
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 18114878
+G4WT4 > 
+G4WT2 > >>> Event: 700
+G4WT2 > No hits
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 >     0 hits stored in this event
+G4WT3 > seed 76603512
+G4WT3 > 
+G4WT1 > seed 13606669
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 60095763
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 26229715
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 29935638
+G4WT4 > seed 22350021
+G4WT1 > seed 27138961
+G4WT1 > 
+G4WT2 > seed 66208375
+G4WT6 > seed 90778849
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 4396052
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 84127778
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 96297268
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 14464959
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 27351985
+G4WT4 > seed 25833470
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 92049996
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 35994383
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 89495542
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 40901385
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 73693386
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 57065837
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 25065256
+G4WT0 > 
+G4WT4 > seed 35010043
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 87307408
+G4WT3 > seed 94734874
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 20623078
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 88485709
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 31442270
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 45547255
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 71567749
+G4WT2 > 
+G4WT3 > seed 69255209
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 76766651
+G4WT5 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 96858487
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 58196874
+G4WT1 > 
+G4WT7 > seed 22610620
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 1127143
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 59641695
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 23347481
+G4WT5 > 
+G4WT3 > seed 39648057
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 21671070
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 30295867
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 61667589
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 82728018
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 80967643
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 324289
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 91392928
+G4WT0 > seed 70160687
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 39346669
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT3 > seed 53981969
+G4WT6 > seed 10125241
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 33010479
+G4WT7 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 46710048
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 62986595
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 2734298
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 93751326
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 23128898
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 90589123
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 13962633
+G4WT3 > seed 59226478
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 7787376
+G4WT5 > seed 12648342
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 35954274
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 72385884
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 16860587
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 4068250
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 2927966
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 18776806
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 10645115
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 66078677
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 53236416
+G4WT4 > 
+G4WT7 > seed 70394113
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 25178339
+G4WT1 > seed 15180577
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 32882610
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 86479266
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 40851673
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 37175341
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 26314771
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 58355072
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 79774830
+G4WT2 > 
+G4WT6 > seed 56096129
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 11202800
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 85692091
+G4WT5 > 
+G4WT3 > seed 57345060
+G4WT0 > seed 74648117
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 10764771
+G4WT1 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 72386613
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 44008483
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 23941863
+G4WT5 > 
+G4WT2 > seed 23804778
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 25005790
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 6230852
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 57474392
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 99933122
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 36742726
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 86824548
+G4WT0 > 
+G4WT6 > seed 95401002
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 35804979
+G4WT7 > seed 45165804
+G4WT7 > 
+G4WT5 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 71521519
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT1 > seed 68953005
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 5648639
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > >>> Event: 900
+G4WT1 > No hits
+G4WT3 > seed 76949143
+G4WT3 > 
+G4WT1 >     0 hits stored in this event
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 12591850
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 76776400
+G4WT7 > 
+G4WT4 > seed 37964416
+G4WT4 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 44988962
+G4WT2 > seed 12093936
+G4WT2 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 85358037
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 58426074
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 20272936
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 75559306
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 68543420
+G4WT4 > 
+G4WT0 > seed 70828202
+G4WT0 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 44626369
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 63208555
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 28658046
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 99868325
+G4WT3 > 
+G4WT1 > seed 68662828
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 9820785
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 26339726
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 72270678
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 20789149
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 13372168
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 8037341
+G4WT1 > 
+G4WT3 > seed 60617281
+G4WT3 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 26369625
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 94417177
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 6139452
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 31200834
+G4WT5 > 
+G4WT7 > seed 84443050
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 3901882
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT4 > seed 30527726
+G4WT4 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 29030256
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 39201492
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 6185376
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 58368871
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 15300599
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 82159802
+G4WT3 > 
+G4WT6 > seed 52000374
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 41516183
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 61484445
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 52078387
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 49272610
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 52175297
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 53717810
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 78438639
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 27940029
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 94830288
+G4WT7 > 
+G4WT1 > seed 39189927
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 60377771
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 25038327
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 10550979
+G4WT5 > 
+G4WT0 > seed 39835865
+G4WT0 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 61856680
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 31455929
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 18842648
+G4WT1 > seed 98147430
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT6 > seed 78743331
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 36157308
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 15502500
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 55964223
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 53353082
+G4WT7 > seed 52668363
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 37004995
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 68341402
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 79249577
+G4WT2 > 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 90709960
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 87648890
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 93197772
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 99165137
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 30126546
+G4WT6 > 
+G4WT1 > seed 67649341
+G4WT0 > seed 26479684
+G4WT0 > 
+G4WT1 > 
+G4WT3 > seed 82450888
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 38005606
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 51086760
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 98949525
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 68063659
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 95840446
+G4WT4 > seed 48173598
+G4WT0 > seed 996934
+G4WT0 > 
+G4WT4 > 
+G4WT5 > seed 99774173
+G4WT5 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 71987915
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 77019109
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 93104771
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 28933903
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 30924361
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 48620163
+G4WT2 > seed 57754024
+G4WT2 > 
+G4WT6 > seed 14367292
+G4WT6 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 75416635
+G4WT7 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 6692766
+G4WT0 > 
+G4WT5 > 
+G4WT1 > seed 75863900
+G4WT4 > seed 8782165
+G4WT4 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 55327828
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 26813955
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 93744625
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 42098967
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 49378146
+G4WT0 > 
+G4WT7 > seed 70667117
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 3172730
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 54846244
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 7361417
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 34366999
+G4WT4 > 
+G4WT6 > seed 19868277
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 49162254
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 24907135
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 27812737
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 62064188
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 93333460
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 83660028
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 72334558
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 30213539
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 24202277
+G4WT2 > seed 33807706
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 81445712
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 55416070
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 47644477
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 35335684
+G4WT6 > seed 2554082
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 51343035
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT2 > seed 69108139
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 28860877
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 47591060
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 43381403
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 24149466
+G4WT3 > seed 2011943
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 97801384
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 17359265
+G4WT7 > 
+G4WT4 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 65319872
+G4WT6 > seed 39134490
+G4WT6 > 
+G4WT5 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 96720419
+G4WT1 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 45404236
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 66678153
+G4WT0 > seed 57813189
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT5 > seed 24257642
+G4WT5 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 65085118
+G4WT3 > 
+G4WT4 > seed 50596975
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 30056224
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 3150631
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 46729867
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 40034459
+G4WT5 > 
+G4WT2 > seed 73015
+G4WT2 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 23680768
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 34743359
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 48550267
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 62434538
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > >>> Event: 800
+G4WT1 > seed 62598389
+G4WT0 > seed 47704316
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 63316936
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 78244067
+G4WT7 > 
+G4WT1 > 
+G4WT6 > No hits
+G4WT6 >     0 hits stored in this event
+G4WT2 > seed 45126290
+G4WT2 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 552262
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 90722186
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 88829743
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 61970204
+G4WT5 > seed 74594325
+G4WT6 > seed 16712595
+G4WT5 > 
+G4WT6 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 9825556
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > 
+G4WT1 > seed 67231046
+G4WT1 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 87180849
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 49205236
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 64229272
+G4WT0 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 15852217
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 52978402
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 81780287
+G4WT4 > seed 96358871
+G4WT7 > 
+G4WT4 > 
+G4WT0 > seed 12454281
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 37556768
+G4WT3 > seed 73279050
+G4WT3 > 
+G4WT1 > seed 73093482
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 78665440
+G4WT5 > 
+G4WT2 > seed 70929522
+G4WT0 > seed 27521496
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 45694469
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 77899416
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 8253794
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT3 > seed 2022695
+G4WT3 > 
+G4WT3 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 93622078
+G4WT6 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 65118688
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 21187049
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 74186427
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT4 > seed 62742035
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 65698558
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 62305468
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 36963197
+G4WT2 > seed 63485939
+G4WT6 > 
+G4WT1 > seed 78776247
+G4WT2 > 
+G4WT1 > 
+G4WT0 > seed 92452295
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > 
+G4WT4 > seed 74536329
+G4WT4 > 
+G4WT4 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 57442741
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 81833393
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 57719207
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT6 > seed 9490304
+G4WT6 > 
+G4WT5 > seed 50769684
+G4WT0 > seed 4010328
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > 
+G4WT6 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 42616414
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 15853456
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 69642
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 83992907
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 23898579
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 91968935
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 33131824
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 54244948
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 1745704
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 41109456
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 31159826
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 89291893
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 85840855
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 75887797
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 39364323
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 45376852
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 15271685
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 94912269
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT5 > seed 89476069
+G4WT5 > 
+G4WT5 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 52942475
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT0 > seed 82949963
+G4WT0 > 
+G4WT0 > Number of hits in the target volume is 0 Hits: 
+G4WT2 > seed 90976687
+G4WT2 > 
+G4WT2 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 7618553
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 4699000
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 41836968
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 55020379
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 11650314
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 19509105
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 18783993
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 69671230
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT7 > seed 39518814
+G4WT7 > 
+G4WT7 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 86806211
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 22902 Hits: 
+G4WT1 > seed 91280161
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+G4WT1 > seed 67230086
+G4WT1 > 
+G4WT1 > Number of hits in the target volume is 0 Hits: 
+
+--------------------End of Global Run-----------------------Graphics systems deleted.
+Visualization Manager deleting...

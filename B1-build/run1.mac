@@ -1,0 +1,31 @@
+# Macro file for example B1
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+/run/setCut 0.00001 mm
+/cuts/setLowEdge 0.00000000000001 eV
+#/process/eLoss/StepFunction 0.1 0.001 um
+#/process/eLoss/StepFunctionMuHad 0.1 0.001 um
+#/process/eLoss/minKinEnergy 10 eV 
+
+/run/initialize
+#
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+# 
+# to the direction (0.,0.,1.)
+#
+/gun/particle neutron
+/gun/energy 0.025 eV
+#
+/run/beamOn 1000000
+# 
+
